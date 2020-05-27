@@ -1,0 +1,33 @@
+{
+  "name": "irish-news-sentiment-analyzer",
+  "version": "1.0.0",
+  "description": "Analysing the de newiz so you don't have to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thevolcanomanishere/Irish-News-Sentiment-Analyzer.git"
+  },
+  "author": "Alex McGonagle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thevolcanomanishere/Irish-News-Sentiment-Analyzer/issues"
+  },
+  "homepage": "https://github.com/thevolcanomanishere/Irish-News-Sentiment-Analyzer#readme",
+  "devDependencies": {
+    "@types/eslint": "^6.8.1",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^1.0.9",
+    "@google-cloud/language": "^4.0.0",
+    "@types/aws-sdk": "^2.7.0",
+    "aws-sdk": "^2.683.0",
+    "eslint": "^7.1.0",
+    "rss-parser": "^3.8.0"
+  }
+}

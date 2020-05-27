@@ -1,0 +1,6 @@
+name = "irish-news-sentiment-analyzer"
+type = "javascript"
+account_id = "c651407921b1944f2cfa90deb9671c92"
+workers_dev = true
+route = ""
+zone_id = ""
